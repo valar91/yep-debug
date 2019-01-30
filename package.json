@@ -1,0 +1,11 @@
+{
+  "name": "@jdcfe/yep-debug",
+  "version": "1.0.0",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "typescript": "^3.2.4",
+    "prettier": "^1.16.2"
+  }
+}
