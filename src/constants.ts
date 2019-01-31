@@ -12,7 +12,8 @@ const API_FETCH_URI: string =
     : HTTP_TYPE + DEBUG_LOCAL_IP + ":3000";
 
 const UPLOAD_LOG_PATH: string = "/api/v1/log";
-
+// 申请得到的App id
+export const APP_ID = '123'
 // 接口日志类型
 const API_LOG: string = "API_LOG";
 
@@ -20,4 +21,8 @@ const API_LOG: string = "API_LOG";
 const API_ERROR: string = "API_ERROR";
 
 // js报错日志类型
-const JS_ERROR: string = "JS_ERROR";
+export const JS_ERROR: string = "JS_ERROR";
+//JD pin
+export const PIN: string = "pin";
+//JD pt_pin
+export const PT_PIN: string = "pt_pin";
